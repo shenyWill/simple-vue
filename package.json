@@ -1,0 +1,20 @@
+{
+  "name": "simple-vue",
+  "version": "1.0.0",
+  "description": "vue3中一些核心逻辑的简单实现",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenyWill/simple-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenyWill/simple-vue/issues"
+  },
+  "homepage": "https://github.com/shenyWill/simple-vue#readme"
+}
