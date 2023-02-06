@@ -1,0 +1,1 @@
+export { Dep, effect } from './reactivity.js';

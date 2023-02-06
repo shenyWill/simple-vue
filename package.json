@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shenyWill/simple-vue/issues"
   },
-  "homepage": "https://github.com/shenyWill/simple-vue#readme"
+  "homepage": "https://github.com/shenyWill/simple-vue#readme",
+  "dependencies": {
+    "@vue/reactivity": "^3.2.47"
+  }
 }
