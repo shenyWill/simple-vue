@@ -1,1 +1,1 @@
-export { Dep, effect } from './reactivity.js';
+export { Dep, effect, reactive } from './reactivity.js';
