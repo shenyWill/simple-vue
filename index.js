@@ -24,3 +24,30 @@ effect(() => {
 })
 
 c.age++;
+
+
+const App = {
+  render(context) {
+    effect(() => {
+      document.querySelector('#app').textContent = ``;
+      const element = document.createElement('div');
+      const text = document.createTextNode('hello');
+      const text1 = document.createTextNode(context.obj.count);
+      element.append(text);
+      element.append(text1);
+      document.querySelector('#app').append(element);
+    })
+  },
+  setup() {
+    const obj = reactive({
+      count: 1,
+    });
+    // 方便在控制台演示
+    window.obj = obj;
+    return {
+      obj,
+    }
+  }
+}
+
+App.render(App.setup());
